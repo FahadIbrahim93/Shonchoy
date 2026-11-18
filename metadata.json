@@ -1,0 +1,8 @@
+{
+  "name": "Shonchoy Invoice Manager",
+  "description": "An open-source invoice, inventory, bKash/Nagad payment tracking, and AI sales forecasting platform for growing businesses, with English and Bangla support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

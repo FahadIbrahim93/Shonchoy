@@ -1,0 +1,341 @@
+{
+  "items": [
+    {
+      "id": "itm-1",
+      "name": "Miniket Premium Rice (50kg)",
+      "sku": "SHN-RICE-050",
+      "category": "Staples",
+      "quantity": 42,
+      "price": 3450,
+      "lowStockThreshold": 12,
+      "updatedAt": "2026-11-14T19:44:20.495Z"
+    },
+    {
+      "id": "itm-2",
+      "name": "Soybean Cooking Oil (5L)",
+      "sku": "SHN-OIL-005",
+      "category": "Cooking Essentials",
+      "quantity": 8,
+      "price": 880,
+      "lowStockThreshold": 15,
+      "updatedAt": "2026-11-15T19:44:20.495Z"
+    },
+    {
+      "id": "itm-3",
+      "name": "Sylhet Loose Leaf Tea (1kg)",
+      "sku": "SHN-TEA-001",
+      "category": "Beverages",
+      "quantity": 64,
+      "price": 520,
+      "lowStockThreshold": 10,
+      "updatedAt": "2026-11-13T19:44:20.495Z"
+    },
+    {
+      "id": "itm-4",
+      "name": "Deshi Red Lentils (25kg)",
+      "sku": "SHN-DAL-025",
+      "category": "Staples",
+      "quantity": 6,
+      "price": 3100,
+      "lowStockThreshold": 10,
+      "updatedAt": "2026-11-15T19:44:20.495Z"
+    },
+    {
+      "id": "itm-5",
+      "name": "Pure Mustard Oil (1L)",
+      "sku": "SHN-OIL-001",
+      "category": "Cooking Essentials",
+      "quantity": 35,
+      "price": 320,
+      "lowStockThreshold": 12,
+      "updatedAt": "2026-11-12T19:44:20.495Z"
+    },
+    {
+      "id": "itm-6",
+      "name": "Thermal POS Receipt Rolls (20pk)",
+      "sku": "SHN-SUP-020",
+      "category": "Store Supplies",
+      "quantity": 19,
+      "price": 750,
+      "lowStockThreshold": 8,
+      "updatedAt": "2026-11-11T19:44:20.495Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-1",
+      "name": "Rahman General Store",
+      "phone": "+880 1711-482910",
+      "currentAddress": "House 14, Road 7, Banani Bazar, Dhaka 1213",
+      "addressHistory": [
+        {
+          "address": "Shop 9, Gulshan-1 DCC Market, Dhaka 1212",
+          "recordedAt": "2026-08-20T06:01:37.010Z",
+          "note": "Original shop location"
+        },
+        {
+          "address": "House 14, Road 7, Banani Bazar, Dhaka 1213",
+          "recordedAt": "2026-10-31T06:01:37.010Z",
+          "note": "Expanded main warehouse"
+        }
+      ],
+      "createdAt": "2026-08-20T06:01:37.010Z",
+      "updatedAt": "2026-10-31T06:01:37.010Z"
+    },
+    {
+      "id": "cust-2",
+      "name": "Nadia Traders, Mirpur",
+      "phone": "+880 1819-304112",
+      "currentAddress": "Plot 22, Section 10, Mirpur, Dhaka 1216",
+      "addressHistory": [
+        {
+          "address": "Plot 22, Section 10, Mirpur, Dhaka 1216",
+          "recordedAt": "2026-09-19T06:01:37.010Z",
+          "note": "Primary storefront"
+        }
+      ],
+      "createdAt": "2026-09-19T06:01:37.010Z",
+      "updatedAt": "2026-09-19T06:01:37.010Z"
+    },
+    {
+      "id": "cust-3",
+      "name": "Green Mart Dhanmondi",
+      "phone": "+880 1912-774520",
+      "currentAddress": "House 48, Satmasjid Road, Dhanmondi, Dhaka 1209",
+      "addressHistory": [
+        {
+          "address": "Road 27, Dhanmondi, Dhaka 1209",
+          "recordedAt": "2026-07-21T06:01:37.010Z",
+          "note": "Initial branch"
+        },
+        {
+          "address": "House 48, Satmasjid Road, Dhanmondi, Dhaka 1209",
+          "recordedAt": "2026-10-24T06:01:37.010Z",
+          "note": "Relocated showroom"
+        }
+      ],
+      "createdAt": "2026-07-21T06:01:37.010Z",
+      "updatedAt": "2026-10-24T06:01:37.010Z"
+    },
+    {
+      "id": "cust-4",
+      "name": "Bismillah Super Shop",
+      "phone": "+880 1670-991244",
+      "currentAddress": "108 Elephant Road, New Market, Dhaka 1205",
+      "addressHistory": [
+        {
+          "address": "108 Elephant Road, New Market, Dhaka 1205",
+          "recordedAt": "2026-10-04T06:01:37.010Z",
+          "note": "Primary delivery address"
+        }
+      ],
+      "createdAt": "2026-10-04T06:01:37.010Z",
+      "updatedAt": "2026-10-04T06:01:37.010Z"
+    },
+    {
+      "id": "cust-5",
+      "name": "Uttara Fresh Corner",
+      "phone": "+880 1755-612098",
+      "currentAddress": "Sector 7, Lake Drive Road, Uttara, Dhaka 1230",
+      "addressHistory": [
+        {
+          "address": "Sector 7, Lake Drive Road, Uttara, Dhaka 1230",
+          "recordedAt": "2026-10-19T06:01:37.010Z",
+          "note": "Primary storefront"
+        }
+      ],
+      "createdAt": "2026-10-19T06:01:37.010Z",
+      "updatedAt": "2026-10-19T06:01:37.010Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv-1001",
+      "invoiceNumber": "INV-2026-1001",
+      "customerName": "Rahman General Store",
+      "customerPhone": "+880 1711-482910",
+      "items": [
+        {
+          "itemId": "itm-1",
+          "name": "Miniket Premium Rice (50kg)",
+          "sku": "SHN-RICE-050",
+          "quantity": 5,
+          "price": 3450
+        },
+        {
+          "itemId": "itm-2",
+          "name": "Soybean Cooking Oil (5L)",
+          "sku": "SHN-OIL-005",
+          "quantity": 10,
+          "price": 880
+        }
+      ],
+      "subtotal": 26050,
+      "vatRate": 5,
+      "vat": 1302.5,
+      "total": 27352.5,
+      "paid": true,
+      "paymentMethod": "bkash",
+      "createdAt": "2026-11-11T19:44:20.495Z",
+      "customerId": "cust-1",
+      "customerAddress": "House 14, Road 7, Banani Bazar, Dhaka 1213"
+    },
+    {
+      "id": "inv-1002",
+      "invoiceNumber": "INV-2026-1002",
+      "customerName": "Nadia Traders, Mirpur",
+      "customerPhone": "+880 1819-304112",
+      "items": [
+        {
+          "itemId": "itm-3",
+          "name": "Sylhet Loose Leaf Tea (1kg)",
+          "sku": "SHN-TEA-001",
+          "quantity": 14,
+          "price": 520
+        },
+        {
+          "itemId": "itm-5",
+          "name": "Pure Mustard Oil (1L)",
+          "sku": "SHN-OIL-001",
+          "quantity": 12,
+          "price": 320
+        }
+      ],
+      "subtotal": 11120,
+      "vatRate": 5,
+      "vat": 556,
+      "total": 11676,
+      "paid": true,
+      "paymentMethod": "nagad",
+      "createdAt": "2026-11-13T19:44:20.495Z",
+      "customerId": "cust-2",
+      "customerAddress": "Plot 22, Section 10, Mirpur, Dhaka 1216"
+    },
+    {
+      "id": "inv-1003",
+      "invoiceNumber": "INV-2026-1003",
+      "customerName": "Green Mart Dhanmondi",
+      "customerPhone": "+880 1912-774520",
+      "items": [
+        {
+          "itemId": "itm-4",
+          "name": "Deshi Red Lentils (25kg)",
+          "sku": "SHN-DAL-025",
+          "quantity": 6,
+          "price": 3100
+        },
+        {
+          "itemId": "itm-6",
+          "name": "Thermal POS Receipt Rolls (20pk)",
+          "sku": "SHN-SUP-020",
+          "quantity": 4,
+          "price": 750
+        }
+      ],
+      "subtotal": 21600,
+      "vatRate": 5,
+      "vat": 1080,
+      "total": 22680,
+      "paid": false,
+      "createdAt": "2026-11-14T19:44:20.495Z",
+      "customerId": "cust-3",
+      "customerAddress": "House 48, Satmasjid Road, Dhanmondi, Dhaka 1209"
+    },
+    {
+      "id": "inv-1004",
+      "invoiceNumber": "INV-2026-1004",
+      "customerName": "Bismillah Super Shop",
+      "customerPhone": "+880 1670-991244",
+      "items": [
+        {
+          "itemId": "itm-1",
+          "name": "Miniket Premium Rice (50kg)",
+          "sku": "SHN-RICE-050",
+          "quantity": 4,
+          "price": 3450
+        },
+        {
+          "itemId": "itm-3",
+          "name": "Sylhet Loose Leaf Tea (1kg)",
+          "sku": "SHN-TEA-001",
+          "quantity": 8,
+          "price": 520
+        }
+      ],
+      "subtotal": 17960,
+      "vatRate": 5,
+      "vat": 898,
+      "total": 18858,
+      "paid": true,
+      "paymentMethod": "cash",
+      "createdAt": "2026-11-15T19:44:20.495Z",
+      "customerId": "cust-4",
+      "customerAddress": "108 Elephant Road, New Market, Dhaka 1205"
+    },
+    {
+      "id": "inv-1005",
+      "invoiceNumber": "INV-2026-1005",
+      "customerName": "Uttara Fresh Corner",
+      "customerPhone": "+880 1755-612098",
+      "items": [
+        {
+          "itemId": "itm-2",
+          "name": "Soybean Cooking Oil (5L)",
+          "sku": "SHN-OIL-005",
+          "quantity": 6,
+          "price": 880
+        },
+        {
+          "itemId": "itm-5",
+          "name": "Pure Mustard Oil (1L)",
+          "sku": "SHN-OIL-001",
+          "quantity": 10,
+          "price": 320
+        }
+      ],
+      "subtotal": 8480,
+      "vatRate": 5,
+      "vat": 424,
+      "total": 8904,
+      "paid": false,
+      "createdAt": "2026-11-16T19:44:20.495Z",
+      "customerId": "cust-5",
+      "customerAddress": "Sector 7, Lake Drive Road, Uttara, Dhaka 1230"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay-501",
+      "invoiceId": "inv-1001",
+      "invoiceNumber": "INV-2026-1001",
+      "customerName": "Rahman General Store",
+      "method": "bkash",
+      "transactionId": "BKS9F28K41M",
+      "amount": 27352.5,
+      "status": "completed",
+      "createdAt": "2026-11-11T19:44:20.495Z"
+    },
+    {
+      "id": "pay-502",
+      "invoiceId": "inv-1002",
+      "invoiceNumber": "INV-2026-1002",
+      "customerName": "Nadia Traders, Mirpur",
+      "method": "nagad",
+      "transactionId": "NGD44109822",
+      "amount": 11676,
+      "status": "completed",
+      "createdAt": "2026-11-13T19:44:20.495Z"
+    },
+    {
+      "id": "pay-503",
+      "invoiceId": "inv-1004",
+      "invoiceNumber": "INV-2026-1004",
+      "customerName": "Bismillah Super Shop",
+      "method": "cash",
+      "transactionId": "CSH-20261115-01",
+      "amount": 18858,
+      "status": "completed",
+      "createdAt": "2026-11-15T19:44:20.495Z"
+    }
+  ]
+}
